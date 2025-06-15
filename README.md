@@ -1,7 +1,15 @@
+<<<<<<< HEAD
 # Calculadora Estadística Web
 
 Esta es una calculadora estadística desarrollada en HTML, CSS y JavaScript, pensada para facilitar el cálculo de operaciones estadísticas comunes tanto para estudiantes como para profesionales.
 
+=======
+# calculadoraEstadistica
+Esta es una calculadora estadística desarrollada en HTML, CSS y JavaScript, pensada para facilitar el cálculo de operaciones estadísticas comunes tanto para estudiantes como para profesionales.
+
+
+
+>>>>>>> 2831f22a32162e5c882a641bf64c0745e4baade7
 ## Funcionalidades
 
 - **Muestreo**
@@ -40,8 +48,16 @@ Esta es una calculadora estadística desarrollada en HTML, CSS y JavaScript, pen
 
 ## Créditos
 
+<<<<<<< HEAD
 Desarrollado por [Juan Alberto Aguilar](https://github.com/Albert-Z00Z)
 
 ---
 
 **Development by AlberttZ** 
+=======
+Desarrollado por [AlberttZ](https://github.com/Albert-Z00Z)
+
+---
+
+**Development by AlberttZ** 
+>>>>>>> 2831f22a32162e5c882a641bf64c0745e4baade7
