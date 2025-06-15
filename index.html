@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Calculadora Estadística</title>
+    <link rel="stylesheet" href="styles.css">
+    <script src="https://cdn.jsdelivr.net/npm/chart.js"></script>
+</head>
+<body>
+    <div class="container">
+        <h1>Calculadora Estadística</h1>
+        
+        <div class="menu">
+            <select id="operationType" onchange="showOperationForm()">
+                <option value="">Seleccione una operación</option>
+                <optgroup label="Muestreo">
+                    <option value="muestreoInfinito">Población Infinita/Desconocida (Cualitativo)</option>
+                    <option value="muestreoFinito">Población Finita/Conocida (Cualitativo)</option>
+                    <option value="muestreoInfinitoQuant">Población Infinita/Desconocida (Cuantitativo)</option>
+                    <option value="muestreoFinitoQuant">Población Finita/Conocida (Cuantitativo)</option>
+                </optgroup>
+                <optgroup label="Intervalos y Medidas">
+                    <option value="intervaloConfianza">Intervalo de Confianza</option>
+                    <option value="tendenciaCentral">Medidas de Tendencia Central</option>
+                    <option value="proporciones">Cálculo de Proporciones</option>
+                </optgroup>
+                <optgroup label="Hipótesis">
+                    <option value="hipotesis">Prueba de Hipótesis</option>
+                    <option value="diferenciaMedias">Diferencia de Medias Poblacionales</option>
+                    <option value="hipotesisProporcion">Prueba de Hipótesis para Proporción</option>
+                    <option value="diferenciaProporciones">Diferencia de Proporciones</option>
+                </optgroup>
+                <optgroup label="Regresión">
+                    <option value="regresionLineal">Regresión Lineal</option>
+                </optgroup>
+            </select>
+        </div>
+
+        <div id="operationForm" class="operation-form">
+            <!-- Los formularios específicos se cargarán aquí dinámicamente -->
+        </div>
+
+        <div id="results" class="results">
+            <div id="numericResults"></div>
+            <div id="graphResults">
+                <canvas id="resultChart"></canvas>
+            </div>
+        </div>
+    </div>
+    <footer class="footer">
+        Development by <a href="https://github.com/Albert-Z00Z" target="_blank">AlberttZ</a>
+    </footer>
+    <script src="script.js"></script>
+</body>
+</html> 
