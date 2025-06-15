@@ -45,12 +45,3 @@ Esta es una calculadora estadística desarrollada en HTML, CSS y JavaScript, pen
 Desarrollado por [Juan Alberto Aguilar](https://github.com/Albert-Z00Z)
 
 ---
-
-**Development by AlberttZ** 
-=======
-Desarrollado por [AlberttZ](https://github.com/Albert-Z00Z)
-
----
-
-**Development by AlberttZ** 
->>>>>>> 2831f22a32162e5c882a641bf64c0745e4baade7
