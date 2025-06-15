@@ -1,15 +1,8 @@
-<<<<<<< HEAD
-# Calculadora Estadística Web
 
-Esta es una calculadora estadística desarrollada en HTML, CSS y JavaScript, pensada para facilitar el cálculo de operaciones estadísticas comunes tanto para estudiantes como para profesionales.
-
-=======
 # calculadoraEstadistica
 Esta es una calculadora estadística desarrollada en HTML, CSS y JavaScript, pensada para facilitar el cálculo de operaciones estadísticas comunes tanto para estudiantes como para profesionales.
 
 
-
->>>>>>> 2831f22a32162e5c882a641bf64c0745e4baade7
 ## Funcionalidades
 
 - **Muestreo**
